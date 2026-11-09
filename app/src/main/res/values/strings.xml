@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RawCam</string>
+    <string name="mode_video">ВИДЕО</string>
+    <string name="mode_photo">ФОТО</string>
+    <string name="need_camera">Нужен доступ к камере.\nРазрешите его в настройках приложения.</string>
+    <string name="flash">Вспышка</string>
+    <string name="flip">Сменить камеру</string>
+    <string name="last_media">Последний снимок</string>
+    <string name="shutter">Затвор</string>
+</resources>
