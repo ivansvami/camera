@@ -249,7 +249,7 @@ class MainActivity : ComponentActivity() {
             .apply { rawOptions(nr) }
             .setResolutionSelector(ResolutionSelector.Builder().setAspectRatioStrategy(ratioStrategy).build())
             .build()
-            .also { it.surfaceProvider = preview.surfaceProvider }
+            .also { it.setSurfaceProvider(preview.surfaceProvider) }
 
         camera?.cameraInfo?.zoomState?.removeObservers(this)
         p.unbindAll()
